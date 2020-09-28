@@ -17,7 +17,7 @@ public class Login extends JFrame implements ActionListener{ //Used to perform t
     JPasswordField pf2;
     JButton b1,b2,b3;
   
-    Login(){ // Assigning constructor Login
+    Login(){ // Assigning constructor login
         
   //For Center alignment 
         setFont(new Font("System", Font.BOLD, 22));
