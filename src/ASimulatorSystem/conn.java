@@ -2,7 +2,7 @@
 
 package ASimulatorSystem;
 
-import java.sql.*;  // This SQl package allows me to perform CRUD data in SQL.
+import java.sql.*;  // This SQl package allows me to perform CRUD data in SQL
 
 public class conn{
     Connection c;
