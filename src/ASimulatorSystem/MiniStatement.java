@@ -21,9 +21,7 @@ public class MiniStatement extends JFrame implements ActionListener{
         super("Mini Statement");
         setSize(1200,650);
         setLocation(200,200);
-     		 String pinn = JOptionPane.showInputDialog("Enter PIN");
-
-        
+     		 String pinn = JOptionPane.showInputDialog("Enter PIN"); 
         try{
             conn c1  = new conn();
             ResultSet rs = c1.s.executeQuery("SELECT * FROM bank where pin = '" + pinn + "'");

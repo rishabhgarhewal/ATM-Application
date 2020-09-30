@@ -32,38 +32,38 @@ public class Transcations extends JFrame implements ActionListener{
        
         b1 = new JButton("DEPOSIT");
         b1.setFont(new Font("System", Font.BOLD, 18));
-        b1.setBackground(Color.WHITE);
-        b1.setForeground(Color.BLACK);
+        b1.setBackground(Color.RED);
+        b1.setForeground(Color.WHITE);
     
         b2 = new JButton("CASH WITHDRAWL");
         b2.setFont(new Font("System", Font.BOLD, 18));
-        b2.setBackground(Color.WHITE);
-        b2.setForeground(Color.BLACK);
+        b2.setBackground(Color.RED);
+        b2.setForeground(Color.WHITE);
         
         b3 = new JButton("FAST CASH");
         b3.setFont(new Font("System", Font.BOLD, 18));
-        b3.setBackground(Color.WHITE);
-        b3.setForeground(Color.BLACK);
+        b3.setBackground(Color.RED);
+        b3.setForeground(Color.WHITE);
         
         b4 = new JButton("MINI STATEMENT");
         b4.setFont(new Font("System", Font.BOLD, 18));
-        b4.setBackground(Color.WHITE);
-        b4.setForeground(Color.BLACK);
+        b4.setBackground(Color.RED);
+        b4.setForeground(Color.WHITE);
         
         b5 = new JButton("PIN CHANGE");
         b5.setFont(new Font("System", Font.BOLD, 18));
-        b5.setBackground(Color.WHITE);
-        b5.setForeground(Color.BLACK);
+        b5.setBackground(Color.RED);
+        b5.setForeground(Color.WHITE);
         
         b6 = new JButton("BALANCE INQUIRY");
         b6.setFont(new Font("System", Font.BOLD, 18));
-        b6.setBackground(Color.WHITE);
-        b6.setForeground(Color.BLACK);
+        b6.setBackground(Color.RED);
+        b6.setForeground(Color.WHITE);
         
         b7 = new JButton("EXIT");
         b7.setFont(new Font("System", Font.BOLD, 18));
-        b7.setBackground(Color.WHITE);
-        b7.setForeground(Color.BLACK);
+        b7.setBackground(Color.BLACK);
+        b7.setForeground(Color.WHITE);
  
      // By default border layout
         setLayout(null);

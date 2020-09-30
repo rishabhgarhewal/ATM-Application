@@ -51,12 +51,12 @@ public class deposit1 extends JFrame implements ActionListener{
         
         b1 = new JButton("DEPOSIT");
         b1.setFont(new Font("System", Font.BOLD, 18));
-        b1.setBackground(Color.BLACK);
+        b1.setBackground(Color.RED);
         b1.setForeground(Color.WHITE);
     
         b2 = new JButton("BACK");
         b2.setFont(new Font("System", Font.BOLD, 18));
-        b2.setBackground(Color.BLACK);
+        b2.setBackground(Color.RED);
         b2.setForeground(Color.WHITE);
         
         b3 = new JButton("EXIT");
@@ -128,7 +128,7 @@ public class deposit1 extends JFrame implements ActionListener{
                     c1.s.executeUpdate(q1);
                     
                    
-                    JOptionPane.showMessageDialog(null, "Rs. "+a+" Deposited Successfully");
+                    JOptionPane.showMessageDialog(null, "$ "+a+" Deposited Successfully");
                     
                     new Transcations().setVisible(true);
                     setVisible(false);

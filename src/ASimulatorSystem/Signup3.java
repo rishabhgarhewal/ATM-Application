@@ -69,13 +69,13 @@ public class Signup3 extends JFrame implements ActionListener{
         
         b1 = new JButton("Submit");
         b1.setFont(new Font("Raleway", Font.BOLD, 14));
-        b1.setBackground(Color.WHITE);
-        b1.setForeground(Color.BLACK);
+        b1.setBackground(Color.RED);
+        b1.setForeground(Color.WHITE);
         
         b2 = new JButton("Cancel");
         b2.setFont(new Font("Raleway", Font.BOLD, 14));
-        b2.setBackground(Color.WHITE);
-        b2.setForeground(Color.BLACK);
+        b2.setBackground(Color.RED);
+        b2.setForeground(Color.WHITE);
         
         c1 = new JCheckBox("Credit Card");
         c1.setBackground(Color.WHITE);

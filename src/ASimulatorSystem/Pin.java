@@ -33,35 +33,35 @@ public class Pin extends JFrame implements ActionListener{
         
         
         l1 = new JLabel("CHANGE YOUR PIN");
-        l1.setFont(new Font("System", Font.BOLD, 25));
+        l1.setFont(new Font("System", Font.BOLD, 28));
         
         l2 = new JLabel("Current PIN:");
-        l2.setFont(new Font("System", Font.BOLD, 22));
+        l2.setFont(new Font("System", Font.BOLD, 18));
         
         l3 = new JLabel("New PIN:");
-        l3.setFont(new Font("System", Font.BOLD, 22));
+        l3.setFont(new Font("System", Font.BOLD, 18));
         
         l4 = new JLabel("Re-Enter New PIN:");
-        l4.setFont(new Font("System", Font.BOLD, 22));
+        l4.setFont(new Font("System", Font.BOLD, 18));
         
         t1 = new JPasswordField();
-        t1.setFont(new Font("Raleway", Font.BOLD, 22));
+        t1.setFont(new Font("Raleway", Font.BOLD, 18));
         
         t2 = new JPasswordField();
         t2.setFont(new Font("Raleway", Font.BOLD, 22));
         
         t3 = new JPasswordField();
-        t3.setFont(new Font("Raleway", Font.BOLD, 22));
+        t3.setFont(new Font("Raleway", Font.BOLD, 18));
         
         b1 = new JButton("SAVE");
         b1.setFont(new Font("System", Font.BOLD, 18));
-        b1.setBackground(Color.WHITE);
-        b1.setForeground(Color.BLACK);
+        b1.setBackground(Color.RED);
+        b1.setForeground(Color.WHITE);
     
         b2 = new JButton("BACK");
         b2.setFont(new Font("System", Font.BOLD, 18));
-        b2.setBackground(Color.WHITE);
-        b2.setForeground(Color.BLACK);
+        b2.setBackground(Color.RED);
+        b2.setForeground(Color.WHITE);
     
      // Assigning action listener to all 2 buttons     
         b1.addActionListener(this);

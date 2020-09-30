@@ -49,18 +49,18 @@ public class Deposit extends JFrame implements ActionListener{
         
         b1 = new JButton("DEPOSIT");
         b1.setFont(new Font("System", Font.BOLD, 18));
-        b1.setBackground(Color.WHITE);
-        b1.setForeground(Color.BLACK);
+        b1.setBackground(Color.RED);
+        b1.setForeground(Color.WHITE);
     
         b2 = new JButton("BACK");
         b2.setFont(new Font("System", Font.BOLD, 18));
-        b2.setBackground(Color.WHITE);
-        b2.setForeground(Color.BLACK);
+        b2.setBackground(Color.RED);
+        b2.setForeground(Color.WHITE);
         
         b3 = new JButton("EXIT");
         b3.setFont(new Font("System", Font.BOLD, 18));
-        b3.setBackground(Color.WHITE);
-        b3.setForeground(Color.BLACK);
+        b3.setBackground(Color.BLACK);
+        b3.setForeground(Color.WHITE);
         
  // By default border layout
         setLayout(null);

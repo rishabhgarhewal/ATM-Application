@@ -32,7 +32,7 @@ public class FastCash extends JFrame implements ActionListener{
         setTitle(pad+"FAST CASH");
         
         l1 = new JLabel("SELECT WITHDRAWL AMOUNT");
-        l1.setFont(new Font("System", Font.BOLD, 38));
+        l1.setFont(new Font("System", Font.BOLD, 28));
         
         l2 = new JLabel("Enter PIN");
         l2.setFont(new Font("System", Font.BOLD, 13));
@@ -42,43 +42,43 @@ public class FastCash extends JFrame implements ActionListener{
        
         b1 = new JButton("$5");
         b1.setFont(new Font("System", Font.BOLD, 18));
-        b1.setBackground(Color.WHITE);
-        b1.setForeground(Color.BLACK);
+        b1.setBackground(Color.RED);
+        b1.setForeground(Color.WHITE);
     
         b2 = new JButton("$10");
         b2.setFont(new Font("System", Font.BOLD, 18));
-        b2.setBackground(Color.WHITE);
-        b2.setForeground(Color.BLACK);
+        b2.setBackground(Color.RED);
+        b2.setForeground(Color.WHITE);
         
         b3 = new JButton("$20");
         b3.setFont(new Font("System", Font.BOLD, 18));
-        b3.setBackground(Color.WHITE);
-        b3.setForeground(Color.BLACK);
+        b3.setBackground(Color.RED);
+        b3.setForeground(Color.WHITE);
         
         b4 = new JButton("$50");
         b4.setFont(new Font("System", Font.BOLD, 18));
-        b4.setBackground(Color.WHITE);
-        b4.setForeground(Color.BLACK);
+        b4.setBackground(Color.RED);
+        b4.setForeground(Color.WHITE);
         
         b5 = new JButton("$100");
         b5.setFont(new Font("System", Font.BOLD, 18));
-        b5.setBackground(Color.WHITE);
-        b5.setForeground(Color.BLACK);
+        b5.setBackground(Color.RED);
+        b5.setForeground(Color.WHITE);
         
      /*   b6 = new JButton("$1");
         b6.setFont(new Font("System", Font.BOLD, 18));
-        b6.setBackground(Color.BLACK);
+        b6.setBackground(Color.WHITE);
         b6.setForeground(Color.WHITE); */
         
         b7 = new JButton("BACK");
         b7.setFont(new Font("System", Font.BOLD, 18));
-        b7.setBackground(Color.WHITE);
-        b7.setForeground(Color.BLACK);
+        b7.setBackground(Color.RED);
+        b7.setForeground(Color.WHITE);
         
         b7 = new JButton("EXIT");
         b7.setFont(new Font("System", Font.BOLD, 18));
-        b7.setBackground(Color.WHITE);
-        b7.setForeground(Color.BLACK);
+        b7.setBackground(Color.BLACK);
+        b7.setForeground(Color.WHITE);
         
      // By default border layout  
         setLayout(null);
@@ -241,7 +241,7 @@ public class FastCash extends JFrame implements ActionListener{
                 
                     conn c1 = new conn();
                     
-                    ResultSet rs = c1.s.executeQuery(" select * from bank where pin = '"+a+"' ");
+                    ResultSet rs = c1.s.executeQuery(" select * from bank where  = pin'"+a+"' ");
                     
                     
                     if(rs.next()){

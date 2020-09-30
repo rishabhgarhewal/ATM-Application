@@ -109,8 +109,8 @@ public class Signup extends JFrame implements ActionListener{
         
         b = new JButton("Next");
         b.setFont(new Font("Raleway", Font.BOLD, 12));
-        b.setBackground(Color.WHITE);
-        b.setForeground(Color.BLACK);
+        b.setBackground(Color.RED);
+        b.setForeground(Color.WHITE);
         
         r1 = new JRadioButton("Male");
         r1.setFont(new Font("Raleway", Font.BOLD, 12));
